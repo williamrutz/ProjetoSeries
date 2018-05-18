@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: RGBA(0,0,0,.8);
+}    
+.formulario{
+    position: absolute;
+    float: left;
+    padding-top: 50px;
+    padding-left: 230px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+input, select{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #333333;  
+    font-weight: bold;
+}
+
+#cadastra{
+    color: black;
+}
+#cadastra:hover{
+    color: red;
+}
+#linha{
+    float: left;
+    padding-left: 600px;
+    padding-top: 200px;
+}
+.login{
+    float: right;
+    padding-right: 400px;
+    padding-top: 180px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+#result_login{
+    float: right;
+    color: white;
+    padding-top: 520px;
+    padding-left: 860px;
+}
